@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+    overflow-x: hidden;
+    background-color: rgb(14,105,153);
+}
+.logo {
+    position: relative;
+    padding-top: 15px;
+    padding-left: 15px;
+    left: 50%;
+    display: block;
+    background-color:white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.nav-bar> ul li {
+    display: block;
+    background-color: rgb(14,105,153);
+    padding: 0px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14,105,153);
+    font-family: "RO Sans",Calibri,sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(39,170,231);}
+
+li a:visited {
+    background-color: rgb(46,121,170);
+}
+
+.main-photo {
+    z-index: -1;
+    padding: 0px;
+}
+div.search-bar input[type=text]{
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    width: 20%;
+    background: #f1f1f1;
+    z-index: 1;
+    top: 250px;
+    right: 80px;
+
+  }
+
+div.search-bar button {
+    position: absolute;
+    width: 3%;
+    padding: 17px;
+    background: #2196F3;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+    z-index: 2;
+    top: 250px;
+    right: 80px;
+  }
+
+  .image-bar {
+      position: absolute;
+      z-index: 3;
+      background-color: white;
+      padding: 25px;
+      margin: 12px;
+      font-family: "RO Sans",Calibri,sans-serif;
+      font-size: 10px;
+      color: rgb(14,105,153);
+      top: 250px;
+      left: 50px;
+  }
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    color: gray;
+}
+h2 a:hover {
+    background-color: rgb(39,170,231);}
+
+h2 a:visited {
+    background-color: rgb(200, 214, 189);
+}
+
+.parent {
+    display: flex;
+    background-color: rgb(243,243,243);
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 80px;
+    padding-top: 0px;
+    
+}
+
+.bar1 {
+    flex: 1;
+}
+
+.bar2 {
+    flex: 1;
+    flex-basis: 20%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.boxie {
+    background-color: rgb(14,105,153);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex-basis: 50%;
+}
+
