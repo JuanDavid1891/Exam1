@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px; 
     overflow-x: hidden;
-    background-color: rgb(14,105,153);
+    background-color: white;
 }
 .logo {
     position: relative;
@@ -113,11 +113,8 @@ h2 a:visited {
     justify-content: space-between;
     padding: 80px;
     padding-top: 0px;
+    margin-bottom: 0px;
     
-}
-
-.bar1 {
-    flex: 1;
 }
 
 .bar2 {
@@ -128,11 +125,75 @@ h2 a:visited {
     padding: 15px;
 }
 
-.boxie {
+/* From this point forward this is for the bottom of the page */
+
+.end-menu {
     background-color: rgb(14,105,153);
+    margin: 0px;
+    padding: 0px;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    flex-basis: 50%;
+
 }
+
+.providing {
+    position: relative;
+    left: 50px;
+    top: 30px;
+    display: flex;
+}
+
+.vertical-menu {
+    width: 200px; 
+    background-color: rgb(14,105,153);
+    position: relative;
+    left: 440px;
+    padding: 40px;
+    
+}
+
+.vertical-menu a {
+    background-color: rgb(14,105,153); 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(39,170,231); /* Dark grey background on mouse-over */
+}
+
+/* From this point forward this is for the footer  */
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 25px;
+    display: block;
+
+}
+
+
+.footer-menu {
+    width: 700px; 
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 440px;
+    border: 2px solid rgb(39,170,231);
+    
+    
+}
+
+.footer-menu a {
+    background-color: rgb(255, 255, 255); /* Grey background color */
+    color: black; /* Black text color */
+    padding: 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-menu a:hover {
+    background-color: rgb(39,170,231); /* Dark grey background on mouse-over */
+}
+
+
 
